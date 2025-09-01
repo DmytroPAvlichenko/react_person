@@ -1,6 +1,6 @@
-export const Person = ({person})  => {
+export const Person = ({ person }) => {
   const { name, age, sex, isMarried, partnerName } = person;
-  
+
   const mery = sex === 'm' ? 'wife' : 'husband';
 
   return (
